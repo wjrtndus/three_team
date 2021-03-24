@@ -1,0 +1,179 @@
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: black;}
+
+/* 폰트 */
+h3 { font-weight: bold; }
+
+/* 버튼 */
+.btn01{width: 80px; padding: 10px 20px; text-align: center; border: 0; box-sizing: border-box;}
+.btn02{width: 120px; padding: 10px 20px; text-align: center;}
+.btn03{width: 150px; padding: 10px 20px; text-align: center;}
+.btn04{width: 80px; padding: 10px 20px; text-align: center;}
+.btn05{width: 120px; padding: 10px 20px; text-align: center;}
+.btn06{width: 150px; padding: 10px 20px; text-align: center;}
+
+.brown{ background-color: #3c302c; color: white;}
+.orange{ background-color: #ff7f00; color:white;}
+
+
+.wrap{ width: 100%; position: relative;}
+.wrap-in{ width: 1200px; margin: 0 auto; }
+
+.hotel_name { margin: 0 0 40px 0; }
+
+.ex { 
+      width: 100%;
+      padding: 10px 10px;
+      /* height: 500px;  */
+      box-sizing: border-box; }
+
+.ex img {
+    width: 100%;
+}
+
+.photo {  
+         width: 100%; 
+         padding: 40px;
+         box-sizing: border-box;
+         margin: 0 0 120px 0;
+         background-color: wheat; }
+
+.map { 
+       height: 250px; 
+       width: 45%; 
+       margin: 10px 0 0 0;
+       background-color: turquoise; }
+
+.map img {
+    height: 250px;
+    width: 100%;
+}
+
+.address { margin: 10px 0 0 0 }
+
+/* 큰섹션 */
+.second_section { float: left;
+                  width: 100%;
+                  box-sizing: border-box;
+                  margin: 0 0 100px 0;
+                  }
+
+.icon_section { width: 100%;
+                box-sizing: border-box;
+                float: left;
+                margin: 0 0 60px 0;
+                border-top:  1px solid #998d9285;
+                border-bottom: 1px solid #998d9285; 
+                }
+
+.last_section { 
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    margin: 40px 0; }
+
+/* 지도, 주변명소 */
+
+.where { 
+    float: left; 
+    width: 550px;
+    margin-right: 100px;
+    box-sizing: border-box;
+}
+
+.place { 
+    float: left;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+.map { 
+    width: 100%;
+    float: left; }
+
+.address { float: left;
+           padding: 15px 0; }
+
+.comments { padding: 10px 0 10px 0; }
+
+.comments li { padding: 10px 0 10px 0; }
+
+/* 아이콘 */
+
+.img {
+    float: left;
+}
+
+.icon li { 
+    float: left; 
+    margin: 20px;
+}
+
+p {
+    float: left;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+/* 객실 */
+
+.roomtype {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 50px 50px 50px;
+    background-color: wheat;
+}
+
+.room_img {
+    float: left;
+    width: 570px;
+    height: 350px;
+    box-sizing: border-box;
+    background-color: rgb(160, 110, 18);
+}
+
+.room_img img {
+    height: 370px;
+    width: 100%;
+}
+
+.roomtype_detail {
+    float: left;
+    width: 530px;
+    box-sizing: border-box;
+    padding: 0 0 0 30px;
+}
+
+.roomtype_name{
+    text-align: center;
+}
+
+.roomtype_bed {
+    padding-top: 50px;
+}
+
+.roomtype_simbol {
+    padding-bottom: 177px;
+}
+
+.reservation {
+    float: left;
+    box-sizing: border-box;   
+}
+
+.price {
+    margin: 13px 0;
+    float: left;
+}
+
+.booking_btn {
+    float: right;
+    padding-left: 270px;
+}
+
+#yeahyak_btn {
+    width: 120px;
+}
+

@@ -1,0 +1,32 @@
+.text03{
+    margin-right: 5%;
+}
+
+.btn02:last-child{
+    margin-right: 2%;
+}
+
+.text03:last-child, .btn02{
+    margin-right: 0;
+}
+
+.member-img-btn{
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+}
+
+.btn02{
+    border: 1px solid #f3405a;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    color: #f3405a;
+}
+
+.pink{ background-color: #f3405a; color:white;}
+
+.member-img-btn h1{
+    width: 120px;
+    margin: 0 auto;
+}

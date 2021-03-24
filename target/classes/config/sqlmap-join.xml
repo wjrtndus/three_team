@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC 
+		"-//mybatis.org//DTD Mapper 3.0//EN" 
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+		
+<mapper namespace="com.itbank.model.CustomerDAO">
+	<select id="duplCheck" parameterType="string" resultType="string">
+		select userid from customer where userid=#{userid}	
+	</select>
+	
+	<insert id="join" parameterType="ct">
+		insert into customer
+			values(CUSTOMER_SEQ.nextval, #{userid}, #{userpw}, #{username}, #{email}, #{phone_number}, 0)
+	</insert>
+	
+	<select id="login" parameterType="ct" resultType="ct">
+		select * from customer
+			where userid=#{userid} and 
+			userpw=#{userpw}
+	</select>
+</mapper>

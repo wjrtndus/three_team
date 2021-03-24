@@ -1,0 +1,34 @@
+
+.join-wrap{
+    width: 500px;
+    margin: 50px auto;
+}
+
+.join{
+    width: 500px;
+    float: left;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+
+.join-wrap .join li{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.join-wrap .join li h1{
+    margin-bottom: 30px;
+}
+
+.join-wrap .join li p{
+    margin-bottom: 5px;
+}
+
+.desh{
+    float: left;
+    padding: 0 7px;
+    line-height: 35px;
+}

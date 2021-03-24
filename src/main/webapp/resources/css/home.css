@@ -1,0 +1,118 @@
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: black;}
+
+.wrap{
+    width: 100%;
+    float: left;
+    background-color: palegoldenrod;
+}
+
+.wrap-in, .header-in{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: wheat;
+}
+
+header{
+    width: 100%;
+    background-color: pink;
+    float: left;
+}
+
+.header-top{
+    width: 100%;
+    float: left;
+    background-color: lightblue;
+}
+
+.header-top ul{
+    width: auto;
+    height: 50px;
+    float: right;
+    background-color: darkcyan;
+}
+
+.header-top ul li{
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+}
+
+.header-center{
+    width: 100%;
+    height: 70px;
+    background-color: coral;
+    float: left;
+}
+
+.header-center .logo{
+    width: 150px;
+    height: 100%;
+    background-color: darkblue;
+    float: left;
+}
+
+.header-center .search{
+    width: 400px;
+    height: 100%;
+    float: left;
+    background-color: white;
+    padding: 0 30px;
+}
+
+.header-center .search span input{
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.header-center .rank{
+    width: 200px;
+    height: 100%;
+    float: left;
+    background-color: darkorange;
+}
+
+.header-center ul{
+    width: auto;
+    height: 100%;
+    float: right;
+    background-color: blanchedalmond;
+}
+
+.header-center ul li{
+    width: 70px;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.header-center ul li{
+    width: 70px;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.menu-wrap{
+    width: 100%;
+    background-color: orange;
+    float: left;
+}
+
+.sub_menu{
+    height: 100%;
+    float: left;
+    padding: 20px 40px;
+    /* overflow: hidden; */
+}
+
+.menu{
+
+}
